@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .box.animate {
+    transform: scale(1.2) rotate(10deg);
+  }
+  
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .light-mode {
+    background-color: #fff;
+    color: #000;
+  }
+  
